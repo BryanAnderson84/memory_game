@@ -1,0 +1,32 @@
+body {
+    background-color: #c0c0c0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+.card {
+  height: 150px;
+  width: 150px;
+  cursor: pointer;
+  border: solid 4px black;
+}
+
+.card-bg {
+  background-image: url("http://bestanimations.com/Careers/Entertainment/Clowns/clown-animation.gif");
+  height: 150px;
+  width: auto;
+}
+
+.card-text {
+  color: black;
+  font-size: 80px;
+  text-shadow: 2px 2px white;
+}
+.hidden {
+  display: none;
+}
